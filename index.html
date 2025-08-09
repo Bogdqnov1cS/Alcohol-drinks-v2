@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Alkoholna pica</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-black text-yellow-500 min-h-screen">
+    <header>
+        <nav class="p-4 m-2 mr-3 flex items-center justify-end relative max-w-4xl mx-auto">
+
+          <div id="desktop-menu" class="hidden md:flex space-x-4">
+            <a href="#" class="text-yellow-500 p-1 mt-2 m-1 border-r border-yellow-500 font-semibold text-lg md:text-xl hover:scale-110 hover:border-none transition">
+              O NAMA
+            </a>
+            <a href="#" class="text-yellow-500 p-1 mt-2 m-1 border-r border-yellow-500 font-semibold text-lg md:text-xl hover:scale-110 hover:border-none transition">
+              NARUCITE
+            </a>
+            <a href="#" class="text-yellow-500 p-1 mt-2 m-1 font-semibold text-lg md:text-xl hover:scale-110 hover:border-none transition">
+              KONTAKT
+            </a>
+          </div>
+
+          <button id="menu-btn" class="md:hidden flex items-center focus:outline-none">
+            <svg class="w-8 h-8 text-yellow-500" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"
+              xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16M4 18h16"></path>
+            </svg>
+          </button>
+
+          <div id="mobile-menu" class="hidden flex-col absolute right-0 top-full mt-2 bg-black border border-yellow-500 rounded-md w-40">
+            <a href="#" class="block px-4 py-2 text-yellow-500 font-semibold text-base hover:bg-yellow-500 hover:text-black transition">
+              O NAMA
+            </a>
+            <a href="#" class="block px-4 py-2 text-yellow-500 font-semibold text-base hover:bg-yellow-500 hover:text-black transition">
+              NARUCITE
+            </a>
+            <a href="#" class="block px-4 py-2 text-yellow-500 font-semibold text-base hover:bg-yellow-500 hover:text-black transition">
+              KONTAKT
+            </a>
+          </div>
+
+        </nav>
+    </header>
+
+    <div id="hero" style="background-image: url(images/bg.png);" class="bg-cover bg-center h-screen p-10">
+        <div class="text-left items-center">
+            <h1 class="text-5xl md:text-7xl font-bold text-yellow-500 mb-4">Alkoholna pica</h1>
+            <h3 class="text-xl">Lorem ipsum dolor sit amet.</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore, quas!</p>
+            <button class="bg-black hover:cursor-pointer text-yellow-500 border border-yellow-400 font-bold py-2 px-4 rounded w-64 h-16 text-lg text-center p-2 flex justify-center items-center m-4
+            hover:bg-slate-900">NARUCITE</button>
+        </div>
+    </div>
+
+    <main class="text-yellow-500 max-w-4xl mx-auto px-4 m-3">
+        <div id="text">
+            <h1 class="text-5xl text-center m-2 font-bold">Lorem ipsum dolor sit amet.</h1>
+            <h2 class="text-3xl text-center m-2 font-semibold">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint, voluptatem.</h2>
+            <p class="text-base text-center m-2">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio, ipsa cumque corrupti sit iusto odio ab quam provident dolorum laudantium consectetur id repudiandae eveniet ipsam.
+            </p>
+            <p class="text-base text-center m-2">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corrupti dignissimos esse obcaecati doloremque distinctio aliquid animi voluptatum ducimus consequuntur perferendis!
+            </p>
+            <p class="text-base text-center m-2">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor ducimus recusandae possimus, sunt laudantium quis.
+            </p>
+            <p class="text-base text-center m-2">Lorem ipsum dolor sit amet.</p>
+
+            <!--dodaj logo-->
+            <img src=""  class="mx-auto text-center" />
+        </div>
+
+        <h1 class="text-5xl text-center m-2 font-bold">Lorem ipsum dolor sit amet consectetur adipisicing.</h1>
+
+        <div id="cards" class="flex flex-row justify-around">
+            <div id="card" class="bg-gray-800 p-4 rounded shadow">
+                <img src="" alt="" class="mb-4 rounded mx-auto" />
+                <h1 class="text-3xl text-center m-2 font-semibold">Naziv proizvoda</h1>
+                <p class="text-base text-center m-2">Opis proizvoda ili pića.</p>
+                <button class="bg-yellow-500 text-black py-2 px-4 rounded hover:bg-yellow-400 transition mx-auto block">
+                    Naruči
+                </button>
+                </div>
+            </div>
+
+            <div id="cards">
+                <div id="cards" class="grid grid-cols-1 md:grid-cols-3 gap-6">
+                    <div id="card" class="bg-gray-800 p-4 rounded shadow">
+                    <img src="" alt="" class="mb-4 rounded mx-auto" />
+                    <h1 class="text-3xl text-center m-2 font-semibold">Naziv proizvoda</h1>
+                    <p class="text-base text-center m-2">Opis proizvoda ili pića.</p>
+                    <button class="bg-yellow-500 text-black py-2 px-4 rounded hover:bg-yellow-400 transition mx-auto block">
+                        Naruči
+                    </button>
+                </div>
+            </div>
+            <div id="cards" class="grid grid-cols-1 md:grid-cols-3 gap-6">
+                <div id="card" class="bg-gray-800 p-4 rounded shadow">
+                    <img src="" alt="" class="mb-4 rounded mx-auto" />
+                    <h1 class="text-3xl text-center m-2 font-semibold">Naziv proizvoda</h1>
+                    <p class="text-base text-center m-2">Opis proizvoda ili pića.</p>
+                    <button class="bg-yellow-500 text-black py-2 px-4 rounded hover:bg-yellow-400 transition mx-auto block">
+                        Naruči
+                    </button>
+                </div>
+            </div>
+            <div id="cards" class="grid grid-cols-1 md:grid-cols-3 gap-6">
+                <div id="card" class="bg-gray-800 p-4 rounded shadow">
+                    <img src="" alt="" class="mb-4 rounded mx-auto" />
+                    <h1 class="text-3xl text-center m-2 font-semibold">Naziv proizvoda</h1>
+                    <p class="text-base text-center m-2">Opis proizvoda ili pića.</p>
+                    <button class="bg-yellow-500 text-black py-2 px-4 rounded hover:bg-yellow-400 transition mx-auto block">
+                        Naruči
+                    </button>
+                </div>
+            </div>
+        </div>
+    </main>
+
+
+
+    <script>
+      const btn = document.getElementById('menu-btn');
+      const mobileMenu = document.getElementById('mobile-menu');
+
+      btn.addEventListener('click', () => {
+        mobileMenu.classList.toggle('hidden');
+      });
+    </script>
+</body>
+</html>
