@@ -3,21 +3,29 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
+
   <title>Alkoholna pica</title>
-  <script src="https://cdn.tailwindcss.com"></script>
+
+  <link rel="stylesheet" href="./dist/output.css">
+  <link rel="stylesheet/less" type="text/css" href="styles.less" />
+
+  <script src="https://cdn.jsdelivr.net/npm/less@4"></script>
+
 </head>
 <body class="bg-black text-yellow-500 min-h-screen">
     <header>
         <nav class="p-4 m-2 mr-3 flex items-center justify-end relative max-w-4xl mx-auto">
 
+          <img src="images/logo.png" alt="Logo" class="h-12 w-12 mr-4 hidden md:block hover:cursor-pointer" />
+
           <div id="desktop-menu" class="hidden md:flex space-x-4">
-            <a href="#" class="text-yellow-500 p-1 mt-2 m-1 border-r border-yellow-500 font-semibold text-lg md:text-xl hover:scale-110 hover:border-none transition">
+            <a href="#" class="txt-link">
               O NAMA
             </a>
-            <a href="#" class="text-yellow-500 p-1 mt-2 m-1 border-r border-yellow-500 font-semibold text-lg md:text-xl hover:scale-110 hover:border-none transition">
+            <a href="#" class="txt-link">
               NARUCITE
             </a>
-            <a href="#" class="text-yellow-500 p-1 mt-2 m-1 font-semibold text-lg md:text-xl hover:scale-110 hover:border-none transition">
+            <a href="#" class="txt-link">
               KONTAKT
             </a>
           </div>
@@ -48,80 +56,93 @@
         <div class="text-left items-center">
             <h1 class="text-5xl md:text-7xl font-bold text-yellow-500 mb-4">Alkoholna pica</h1>
             <h3 class="text-xl">Lorem ipsum dolor sit amet.</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore, quas!</p>
-            <button class="bg-black hover:cursor-pointer text-yellow-500 border border-yellow-400 font-bold py-2 px-4 rounded w-64 h-16 text-lg text-center p-2 flex justify-center items-center m-4
-            hover:bg-slate-900">NARUCITE</button>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit!</p>
+            <button class="btn-order">NARUCITE</button> 
         </div>
     </div>
 
+
     <main class="text-yellow-500 max-w-4xl mx-auto px-4 m-3">
         <div id="text">
-            <h1 class="text-5xl text-center m-2 font-bold">Lorem ipsum dolor sit amet.</h1>
-            <h2 class="text-3xl text-center m-2 font-semibold">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint, voluptatem.</h2>
-            <p class="text-base text-center m-2">
+            <h1 class="main-title">Lorem ipsum dolor sit amet.</h1>
+            <h2 class="sub-title">Lorem ipsum dolor sit amet consectetur adipisicing elit!</h2>
+            <p class="main-paragraph">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio, ipsa cumque corrupti sit iusto odio ab quam provident dolorum laudantium consectetur id repudiandae eveniet ipsam.
             </p>
-            <p class="text-base text-center m-2">
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corrupti dignissimos esse obcaecati doloremque distinctio aliquid animi voluptatum ducimus consequuntur perferendis!
-            </p>
-            <p class="text-base text-center m-2">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor ducimus recusandae possimus, sunt laudantium quis.
-            </p>
-            <p class="text-base text-center m-2">Lorem ipsum dolor sit amet.</p>
 
-            <!--dodaj logo-->
             <img src=""  class="mx-auto text-center" />
         </div>
 
-        <h1 class="text-5xl text-center m-2 font-bold">Lorem ipsum dolor sit amet consectetur adipisicing.</h1>
+        <h1 class="main-title mt-4">Lorem ipsum dolor sit amet</h1>
 
-        <div id="cards" class="flex flex-row justify-around">
-            <div id="card" class="bg-gray-800 p-4 rounded shadow">
-                <img src="" alt="" class="mb-4 rounded mx-auto" />
-                <h1 class="text-3xl text-center m-2 font-semibold">Naziv proizvoda</h1>
-                <p class="text-base text-center m-2">Opis proizvoda ili pića.</p>
-                <button class="bg-yellow-500 text-black py-2 px-4 rounded hover:bg-yellow-400 transition mx-auto block">
-                    Naruči
-                </button>
-                </div>
-            </div>
-
-            <div id="cards">
-                <div id="cards" class="grid grid-cols-1 md:grid-cols-3 gap-6">
-                    <div id="card" class="bg-gray-800 p-4 rounded shadow">
-                    <img src="" alt="" class="mb-4 rounded mx-auto" />
-                    <h1 class="text-3xl text-center m-2 font-semibold">Naziv proizvoda</h1>
-                    <p class="text-base text-center m-2">Opis proizvoda ili pića.</p>
-                    <button class="bg-yellow-500 text-black py-2 px-4 rounded hover:bg-yellow-400 transition mx-auto block">
-                        Naruči
-                    </button>
-                </div>
-            </div>
-            <div id="cards" class="grid grid-cols-1 md:grid-cols-3 gap-6">
-                <div id="card" class="bg-gray-800 p-4 rounded shadow">
-                    <img src="" alt="" class="mb-4 rounded mx-auto" />
-                    <h1 class="text-3xl text-center m-2 font-semibold">Naziv proizvoda</h1>
-                    <p class="text-base text-center m-2">Opis proizvoda ili pića.</p>
-                    <button class="bg-yellow-500 text-black py-2 px-4 rounded hover:bg-yellow-400 transition mx-auto block">
-                        Naruči
-                    </button>
-                </div>
-            </div>
-            <div id="cards" class="grid grid-cols-1 md:grid-cols-3 gap-6">
-                <div id="card" class="bg-gray-800 p-4 rounded shadow">
-                    <img src="" alt="" class="mb-4 rounded mx-auto" />
-                    <h1 class="text-3xl text-center m-2 font-semibold">Naziv proizvoda</h1>
-                    <p class="text-base text-center m-2">Opis proizvoda ili pića.</p>
-                    <button class="bg-yellow-500 text-black py-2 px-4 rounded hover:bg-yellow-400 transition mx-auto block">
-                        Naruči
-                    </button>
-                </div>
-            </div>
-        </div>
     </main>
 
+    <img src="images/logo.png" class="text-center mx-auto mb-4 mt-4 w-52 h-48 transition transition-transform hover:scale-110" alt="Logo" />
 
+    <div class="card-container">
+      <div class="card">
+        <img src="images/img1.jpg" class="card-img">
+        <h2 class="text-lg font-semibold">Luksuzno alkoholno pice</h2>
+        <p>Lorem ipsum dolor sit amet.</p>
+        <button class="btn-order-secondary">ORDER</button>
 
+      </div>
+
+      <div class="card">
+        <img src="images/hero-image.jpeg" class="card-img">
+        <h2 class="text-lg font-semibold">Luksuzno alkoholno pice</h2>
+        <p>Lorem ipsum dolor sit amet.</p>
+        <button class="btn-order-secondary">ORDER</button>
+      </div>
+
+      <div class="card">
+        <img src="images/hero-image-2.jpeg" class="card-img">
+        <h2 class="text-lg font-semibold">Luksuzno alkoholno pice</h2>
+        <p>Lorem ipsum dolor sit amet.</p>
+        <button class="btn-order-secondary">ORDER</button>
+      </div>
+    </div>
+
+    <div class="card-container">
+      <div class="card-secondary">
+        <img src="images/barrel.png" class="card-icon">
+        <h2 class="text-lg font-semibold">Luksuzno alkoholno pice</h2>
+        <p>Lorem ipsum dolor sit amet.</p>
+
+      </div>
+
+      <div class="card-secondary">
+        <img src="images/diamond.png" class="card-icon">
+        <h2 class="text-lg font-semibold">Luksuzno alkoholno pice</h2>
+        <p>Lorem ipsum dolor sit amet.</p>
+
+      </div>
+
+      <div class="card-secondary">
+        <img src="images/bottle-of-beer.png" class="card-icon">
+        <h2 class="text-lg font-semibold">Luksuzno alkoholno pice</h2>
+        <p>Lorem ipsum dolor sit amet.</p>
+
+      </div>
+
+      <div class="card-secondary">
+        <img src="images/grape.png" class="card-icon">
+        <h2 class="text-lg font-semibold">Luksuzno alkoholno pice</h2>
+        <p>Lorem ipsum dolor sit amet.</p>
+
+      </div>
+    </div>
+
+    <footer style="background-image: url(images/footer-bg.png);" class="w-100 h-[30vh] bg-cover bg-center p-10 text-yellow-500 mt-20">
+      <div class="text-center">
+        <h2 class="text-2xl font-bold mb-4">Kontaktirajte nas</h2>
+        <p class="mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio, ipsa cumque corrupti sit iusto odio ab quam provident dolorum laudantium consectetur id repudiandae eveniet ipsam.</p>
+        <button class="btn-order-secondary">Kontakt</button>
+      </div>
+
+    </footer>
+
+    <!--JS za hamburger meni(linkovi na manjim ekranima)-->
     <script>
       const btn = document.getElementById('menu-btn');
       const mobileMenu = document.getElementById('mobile-menu');
